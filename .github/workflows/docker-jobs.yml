@@ -10,11 +10,11 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      run: |
-        hostid
+      - run: |
+          hostid
 
   job2:
     runs-on: ubuntu-latest
     steps:
-      run: |
-        hostid
+      - run: |
+          hostid
